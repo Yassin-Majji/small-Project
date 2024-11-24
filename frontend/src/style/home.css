@@ -1,0 +1,15 @@
+.product-page{
+  
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* تكرار الأعمدة حسب المساحة */
+    gap: 3px; 
+    padding: 20px;
+    color: rgb(46, 42, 35);
+
+}
+.product{
+ 
+  border: 1px solid rgb(230, 211, 211);
+  border-radius: 10px;
+  padding: 5px;
+}

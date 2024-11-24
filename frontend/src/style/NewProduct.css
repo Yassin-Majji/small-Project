@@ -1,0 +1,70 @@
+
+.FORM{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+}
+form{
+    width: 50%;
+    height: 50vh;
+    border: 1px solid rgba(208, 198, 198, 0.107);
+    padding: 5px;
+    border-radius: 6px;
+    background-color: rgb(172, 251, 252);
+    
+}
+.failed_alert,.success_alert {
+    position: fixed;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -20%);
+    border: 1px solid rgb(162, 4, 4);
+    color: rgb(223, 9, 9);
+    z-index: 10;
+    background-color: rgba(0, 0, 0, 0.85);
+    width: 60%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    font-size: 1.5em;
+    border-radius: 15px;
+    text-align: center;
+    box-sizing: border-box;
+}
+.success_alert {
+    color: rgb(2, 156, 30);
+}
+input[type="file"],
+input[type="text"],
+input[type="number"] {
+    width: 90%;
+    height: 5vh;
+    margin: 2%;
+    border-radius: 9px;
+    padding: 5px;
+    border: 1px solid rgb(114, 97, 97);
+    background-color: rgb(235, 239, 239);
+   
+}
+button{
+    margin: 2%;
+    height: 5vh;
+    border-radius: 35px;
+    background-color: rgba(12, 12, 255, 0.56);
+    border: solid 1px rebeccapurple;
+}
+
+@media (max-width: 400px) {
+    input[type="file"],
+    input[type="text"],
+    input[type="number"]{
+        font-size: 60%;
+        height: 8vh;
+    }
+  
+}
